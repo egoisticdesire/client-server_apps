@@ -31,7 +31,7 @@ while Exception:
         action = subprocess.Popen(args, stdout=subprocess.PIPE)
         for line in action.stdout:
             result = chardet.detect(line)
-            print(f'result = {result}')
+            # print(f'result = {result}')
             line = line.decode(result['encoding']).encode('utf-8')
             print(line.decode('utf-8'), end='')
         break
