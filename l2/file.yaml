@@ -1,0 +1,12 @@
+first_key:
+- one
+- two
+- three
+second_key: 123
+third_key:
+  third_key_one: €1
+  third_key_two:
+  - €2
+  - €3
+  - €4
+  third_key_three: €5
