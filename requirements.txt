@@ -1,7 +1,2 @@
 chardet==4.0.0
-Faker==13.12.0
-Pyment==0.3.3
-python-dateutil==2.8.2
 PyYAML==6.0
-radar==0.3
-six==1.16.0
