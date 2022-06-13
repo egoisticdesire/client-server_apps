@@ -1,0 +1,40 @@
+2022-06-13 03:48:17 :: INFO     :: client :: Не указан IP-адрес и/или номер порта. Применено значение по-умолчанию - 127.0.0.1:7777.
+2022-06-13 03:48:17 :: INFO     :: client :: Из "main()" вызвана "presence_message()" с параметрами:
+	('Zohan',)
+2022-06-13 03:48:17 :: INFO     :: client :: Из "main()" вызвана "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40140), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655077697.5529263, 'user': {'account_name': 'Zohan'}})
+2022-06-13 03:48:17 :: INFO     :: client :: Из "main()" вызвана "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40140), raddr=('127.0.0.1', 7777)>,)
+2022-06-13 03:48:17 :: INFO     :: client :: Из "main()" вызвана "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-13 03:50:34 :: INFO     :: client :: Не указан IP-адрес и/или номер порта. Применено значение по-умолчанию - 127.0.0.1:7777.
+2022-06-13 03:50:34 :: INFO     :: client :: Из "main()" вызвана "presence_message()" с параметрами:
+	('Zohan',)
+2022-06-13 03:50:34 :: INFO     :: client :: Из "main()" вызвана "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40142), raddr=('127.0.0.1', 7777)>, 'Некорректное сообщение для проверки')
+2022-06-13 03:50:34 :: ERROR    :: client :: Попытка отправки некорректного сообщения на сервер.
+2022-06-13 03:51:02 :: INFO     :: client :: Не указан IP-адрес и/или номер порта. Применено значение по-умолчанию - 127.0.0.1:7777.
+2022-06-13 03:51:02 :: INFO     :: client :: Из "main()" вызвана "presence_message()" с параметрами:
+	('Zohan',)
+2022-06-13 03:51:02 :: INFO     :: client :: Из "main()" вызвана "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40144), raddr=('127.0.0.1', 7777)>, 'Некорректное сообщение для проверки')
+2022-06-13 03:51:02 :: ERROR    :: client :: Попытка отправки некорректного сообщения на сервер.
+2022-06-13 03:51:44 :: INFO     :: client :: Не указан IP-адрес и/или номер порта. Применено значение по-умолчанию - 127.0.0.1:7777.
+2022-06-13 03:51:44 :: INFO     :: client :: Из "main()" вызвана "presence_message()" с параметрами:
+	('Zohan',)
+2022-06-13 03:51:44 :: INFO     :: client :: Из "main()" вызвана "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40146), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655077904.4413924, 'user': {'account_name': 'Zohan'}})
+2022-06-13 03:51:44 :: INFO     :: client :: Из "main()" вызвана "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40146), raddr=('127.0.0.1', 7777)>,)
+2022-06-13 03:51:44 :: INFO     :: client :: Из "main()" вызвана "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-13 03:52:07 :: ERROR    :: client :: Значение порта может быть только числом в диапазоне от 1024 до 65535.
+2022-06-13 04:23:06 :: INFO     :: client :: Не указан IP-адрес и/или номер порта. Применено значение по-умолчанию - 127.0.0.1:7777.
+2022-06-13 04:23:06 :: INFO     :: client :: Из "main()" вызвана функция "presence_message()" с параметрами:
+	('Zohan',)
+2022-06-13 04:23:06 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40170), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655079786.1795192, 'user': {'account_name': 'Zohan'}})
+2022-06-13 04:23:06 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40170), raddr=('127.0.0.1', 7777)>,)
+2022-06-13 04:23:06 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
