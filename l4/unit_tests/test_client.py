@@ -2,7 +2,7 @@ import unittest
 import sys
 import os
 from common.variables import ACCOUNT_NAME, ACTION, ERROR, PRESENCE, RESPONSE, TIME, USER
-from client import presence_message, process_server_message
+from client import create_presence, process_server_message
 
 sys.path.insert(0, os.path.join(os.getcwd(), '..'))
 
@@ -25,12 +25,12 @@ class TestClient(unittest.TestCase):
     }
 
     def test_presence_message_ok(self):
-        test_presence_msg = presence_message('test_guest')
+        test_presence_msg = create_presence('test_guest')
         test_presence_msg[TIME] = 111.111
         self.assertEqual(test_presence_msg, self.base_msg)
 
     def test_presence_message_err(self):
-        test_presence_msg = presence_message('guest')
+        test_presence_msg = create_presence('guest')
         self.assertNotEqual(test_presence_msg, self.base_msg)
 
     def test_process_server_message_200_ok(self):
