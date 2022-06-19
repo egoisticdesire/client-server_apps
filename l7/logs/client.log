@@ -1,0 +1,1241 @@
+2022-06-19 00:45:51 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:45:51 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 00:45:51 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:45:51 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:45:51 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52082), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585151.0091498, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:45:51 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52082), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:45:51 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:45:51 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:45:51 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:45:51 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52082), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:45:55 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:45:55 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 00:45:55 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:45:55 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:45:55 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52084), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585155.1228464, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:45:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52084), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:45:55 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:45:55 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 00:45:55 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:45:55 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:45:55 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:45:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52084), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:45:55 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:45:55 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:45:55 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52086), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585155.5049276, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:45:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52086), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:45:56 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:45:56 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:45:56 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:45:56 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52086), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:46:17 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655585177.8685174, 'account_name': 'Guest', 'some_message_text': 'qwe'}
+2022-06-19 00:46:17 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52082), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655585177.8685174, 'account_name': 'Guest', 'some_message_text': 'qwe'})
+2022-06-19 00:46:17 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52082), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:46:59 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 00:50:53 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:50:53 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 00:50:53 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:50:53 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:50:53 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52088), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585453.2022793, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:50:53 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52088), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:50:53 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:50:53 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:50:53 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:50:53 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52088), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:50:53 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:50:53 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 00:50:53 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:50:53 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:50:53 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52090), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585453.7382803, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:50:53 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52090), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:50:54 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:50:54 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 00:50:54 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:50:54 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:50:54 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52092), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585454.0890515, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:50:54 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52092), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:50:54 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:50:54 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:50:54 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:50:54 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52090), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:50:54 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:50:54 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:50:54 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:50:54 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52092), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:51:00 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655585460.3306088, 'account_name': 'Guest', 'some_message_text': 'qw'}
+2022-06-19 00:51:00 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52088), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655585460.3306088, 'account_name': 'Guest', 'some_message_text': 'qw'})
+2022-06-19 00:51:00 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52088), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:51:07 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:57:15 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:57:15 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52120), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585835.3706222, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52120), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:57:15 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:57:15 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52122), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585835.8072932, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:57:15 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:57:15 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52122), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52120), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:57:15 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:57:15 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:57:15 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52122), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:57:15 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52124), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585835.9969974, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:57:15 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52124), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:57:16 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:57:16 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:57:16 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:57:16 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52124), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:57:29 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655585849.3038054, 'account_name': 'Guest', 'some_message_text': '1'}
+2022-06-19 00:57:29 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52120), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655585849.3038054, 'account_name': 'Guest', 'some_message_text': '1'})
+2022-06-19 00:57:29 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52120), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:57:29 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655585849.3995166, 'account_name': 'Guest', 'some_message_text': ''}
+2022-06-19 00:57:29 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52120), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655585849.3995166, 'account_name': 'Guest', 'some_message_text': ''})
+2022-06-19 00:57:29 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52120), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:07 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:58:07 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 00:58:07 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:58:07 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:58:07 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585887.4385457, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:58:07 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:07 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:58:07 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:58:07 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:58:07 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:58:08 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:58:08 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52128), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585888.1162903, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52128), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:58:08 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 00:58:08 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:58:08 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52130), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655585888.2307975, 'user': {'account_name': 'Zohan'}})
+2022-06-19 00:58:08 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52130), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52128), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 00:58:08 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 00:58:08 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 00:58:08 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52130), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:42 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655585922.5109057, 'account_name': 'Guest', 'some_message_text': 'q'}
+2022-06-19 00:58:42 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655585922.5109057, 'account_name': 'Guest', 'some_message_text': 'q'})
+2022-06-19 00:58:42 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:43 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655585923.9827993, 'account_name': 'Guest', 'some_message_text': 'q'}
+2022-06-19 00:58:43 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655585923.9827993, 'account_name': 'Guest', 'some_message_text': 'q'})
+2022-06-19 00:58:43 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:44 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655585924.270852, 'account_name': 'Guest', 'some_message_text': 'q'}
+2022-06-19 00:58:44 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655585924.270852, 'account_name': 'Guest', 'some_message_text': 'q'})
+2022-06-19 00:58:44 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:44 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655585924.5347595, 'account_name': 'Guest', 'some_message_text': 'q'}
+2022-06-19 00:58:44 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655585924.5347595, 'account_name': 'Guest', 'some_message_text': 'q'})
+2022-06-19 00:58:44 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 00:58:44 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655585924.766722, 'account_name': 'Guest', 'some_message_text': 'q'}
+2022-06-19 00:58:44 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655585924.766722, 'account_name': 'Guest', 'some_message_text': 'q'})
+2022-06-19 00:58:44 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52126), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:08:57 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:08:57 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 01:08:57 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 01:08:57 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 01:08:57 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52132), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655586537.450829, 'user': {'account_name': 'Zohan'}})
+2022-06-19 01:08:57 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52132), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:08:57 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:08:57 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:08:57 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:08:57 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52132), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:08:58 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 01:08:58 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52134), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655586538.1237574, 'user': {'account_name': 'Zohan'}})
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52134), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:08:58 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:08:58 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 01:08:58 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:08:58 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52136), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655586538.4581947, 'user': {'account_name': 'Zohan'}})
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52134), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52136), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:08:58 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:08:58 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:08:58 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52136), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:09:05 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655586545.8824835, 'account_name': 'Guest', 'mess_text': 'q'}
+2022-06-19 01:09:05 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52132), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655586545.8824835, 'account_name': 'Guest', 'mess_text': 'q'})
+2022-06-19 01:09:05 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52132), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:15:44 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:15:44 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:15:44 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 01:15:44 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 01:15:44 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52138), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655586944.3875303, 'user': {'account_name': 'Zohan'}})
+2022-06-19 01:15:44 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52138), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:15:44 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:15:44 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:15:44 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:15:44 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52138), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:16:24 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:16:24 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 01:16:24 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 01:16:24 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 01:16:24 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52140), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655586984.5476747, 'user': {'account_name': 'Zohan'}})
+2022-06-19 01:16:24 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52140), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:16:25 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:16:25 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:16:25 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52140), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 01:16:25 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52142), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655586985.026428, 'user': {'account_name': 'Zohan'}})
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52142), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:16:25 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 01:16:25 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52144), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655586985.3531878, 'user': {'account_name': 'Zohan'}})
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52144), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:16:25 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:16:25 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52142), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:16:25 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:16:25 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:16:25 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52144), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:16:34 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655586994.1266499, 'account_name': 'Guest', 'mess_text': 'a'}
+2022-06-19 01:16:34 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52140), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655586994.1266499, 'account_name': 'Guest', 'mess_text': 'a'})
+2022-06-19 01:16:34 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52140), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:16:39 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655586999.7185256, 'account_name': 'Guest', 'mess_text': 'asd'}
+2022-06-19 01:16:39 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52140), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655586999.7185256, 'account_name': 'Guest', 'mess_text': 'asd'})
+2022-06-19 01:16:39 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52140), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:16:59 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 01:20:57 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:20:57 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 01:20:57 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 01:20:57 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 01:20:57 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52146), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655587257.4492803, 'user': {'account_name': 'Zohan'}})
+2022-06-19 01:20:57 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52146), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:20:57 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:20:57 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:20:57 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:20:57 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:20:57 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:20:57 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52146), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:20:57 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 01:20:57 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 01:20:57 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52148), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655587257.914643, 'user': {'account_name': 'Zohan'}})
+2022-06-19 01:20:57 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52148), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:20:58 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:20:58 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:20:58 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:20:58 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:20:58 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:20:58 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52148), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:20:58 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	('Zohan',)
+2022-06-19 01:20:58 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Zohan
+2022-06-19 01:20:58 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52150), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655587258.2381814, 'user': {'account_name': 'Zohan'}})
+2022-06-19 01:20:58 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52150), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:20:58 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:20:58 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:20:58 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:20:58 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52150), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:21:04 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655587264.9641688, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 01:21:04 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52146), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655587264.9641688, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 01:21:04 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52146), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:21:07 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 01:22:47 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:22:47 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 01:22:47 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 01:22:47 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 01:22:47 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52152), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655587367.7727327, 'user': {'account_name': 'Guest'}})
+2022-06-19 01:22:47 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52152), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:22:48 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:22:48 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52152), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:22:48 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 01:22:48 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52154), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655587368.4564188, 'user': {'account_name': 'Guest'}})
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52154), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:22:48 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:22:48 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:22:48 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52154), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 01:22:48 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52156), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655587368.90963, 'user': {'account_name': 'Guest'}})
+2022-06-19 01:22:48 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52156), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:22:49 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:22:49 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:22:49 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:22:49 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52156), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:22:57 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655587377.6835635, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 01:22:57 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52152), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655587377.6835635, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 01:22:57 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52152), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:23:00 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655587380.3956113, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 01:23:00 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52152), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655587380.3956113, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 01:23:00 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52152), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:23:04 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 01:26:48 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:26:48 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 01:26:48 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 01:26:48 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 01:26:48 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52158), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655587608.623544, 'user': {'account_name': 'Guest'}})
+2022-06-19 01:26:48 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52158), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:26:49 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:26:49 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52158), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:26:49 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 01:26:49 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52160), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655587609.3141387, 'user': {'account_name': 'Guest'}})
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52160), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:26:49 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:26:49 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 01:26:49 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:26:49 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52162), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655587609.7036505, 'user': {'account_name': 'Guest'}})
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52162), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:26:49 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52160), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:26:50 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 01:26:50 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 01:26:50 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 01:26:50 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52162), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:27:00 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655587620.1855266, 'account_name': 'Guest', 'mess_text': 'a'}
+2022-06-19 01:27:00 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52158), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655587620.1855266, 'account_name': 'Guest', 'mess_text': 'a'})
+2022-06-19 01:27:00 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52158), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 01:27:22 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 21:30:54 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:30:54 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 21:30:54 :: ERROR    :: client :: Не удалось подключиться к серверу 127.0.0.1:7777
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:30:55 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 21:30:55 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40686), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655659855.0471277, 'user': {'account_name': 'Guest'}})
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40686), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:30:55 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 21:30:55 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 21:30:55 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 21:30:55 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40688), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655659855.4822354, 'user': {'account_name': 'Guest'}})
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40688), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40686), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 21:30:55 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 21:30:55 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 21:30:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40688), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:31:14 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:31:14 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 21:31:14 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 21:31:14 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 21:31:14 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40690), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655659874.459914, 'user': {'account_name': 'Guest'}})
+2022-06-19 21:31:14 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40690), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:31:14 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 21:31:14 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 21:31:14 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 21:31:14 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40690), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:31:46 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655659906.8362238, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 21:31:46 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40690), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655659906.8362238, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 21:31:46 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40690), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:31:56 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 21:41:10 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:41:10 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 21:41:10 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 21:41:10 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 21:41:10 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40698), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655660470.271569, 'user': {'account_name': 'Guest'}})
+2022-06-19 21:41:10 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40698), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:41:10 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 21:41:10 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 21:41:10 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 21:41:10 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40698), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:41:11 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:41:11 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 21:41:11 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 21:41:11 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 21:41:11 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40700), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655660471.0449097, 'user': {'account_name': 'Guest'}})
+2022-06-19 21:41:11 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40700), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:41:11 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 21:41:11 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 21:41:11 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 21:41:11 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40700), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:41:11 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:41:11 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 21:41:11 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 21:41:11 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 21:41:11 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40702), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655660471.8510928, 'user': {'account_name': 'Guest'}})
+2022-06-19 21:41:11 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40702), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:41:12 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 21:41:12 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 21:41:12 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 21:41:12 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40702), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:41:17 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655660477.183538, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 21:41:17 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40698), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655660477.183538, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 21:41:17 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40698), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:41:31 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 21:47:41 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:47:41 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 21:47:41 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 21:47:41 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 21:47:41 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40704), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655660861.1696815, 'user': {'account_name': 'Guest'}})
+2022-06-19 21:47:41 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40704), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:47:41 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 21:47:41 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 21:47:41 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 21:47:41 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40704), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:47:41 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:47:41 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 21:47:41 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 21:47:41 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 21:47:41 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40706), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655660861.775695, 'user': {'account_name': 'Guest'}})
+2022-06-19 21:47:41 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40706), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:47:42 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 21:47:42 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 21:47:42 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 21:47:42 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40706), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:47:42 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:47:42 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 21:47:42 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 21:47:42 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 21:47:42 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40708), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655660862.359269, 'user': {'account_name': 'Guest'}})
+2022-06-19 21:47:42 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40708), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:47:42 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 21:47:42 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 21:47:42 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 21:47:42 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40708), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 21:47:51 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655660871.1734037, 'account_name': 'Guest', 'mess_text': 'asd'}
+2022-06-19 21:47:51 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40704), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655660871.1734037, 'account_name': 'Guest', 'mess_text': 'asd'})
+2022-06-19 21:47:51 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40704), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:08:59 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:08:59 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:08:59 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:08:59 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:08:59 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40710), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655662139.573371, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:08:59 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40710), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:09:00 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:09:00 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:09:00 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:09:00 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40710), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:09:14 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:09:14 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:09:14 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:09:14 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:09:14 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40712), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655662154.094312, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:09:14 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40712), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:09:14 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:09:14 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:09:14 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:09:14 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40712), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:09:18 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655662158.0340245, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:09:18 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40712), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655662158.0340245, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 22:09:18 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40712), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:09:28 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 22:09:42 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:09:42 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:09:42 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:09:42 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:09:42 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40714), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655662182.2468357, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:09:42 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40714), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:09:42 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:09:42 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:09:42 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:10:59 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40714), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:11:43 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:11:43 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:11:43 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:11:43 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:11:43 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40716), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655662303.4521177, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:11:43 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40716), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:11:43 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:11:43 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:11:43 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:12:07 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40716), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:12:32 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655662344.8452084, 'account_name': 'Guest', 'mess_text': 'asd'}
+2022-06-19 22:12:44 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40714), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655662344.8452084, 'account_name': 'Guest', 'mess_text': 'asd'})
+2022-06-19 22:13:58 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:13:58 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:13:58 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:13:58 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:13:58 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40718), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655662438.0602582, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:13:58 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40718), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:13:58 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:13:58 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:13:58 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:14:18 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40718), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:14:42 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40714), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:18:45 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:18:45 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:18:45 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:18:45 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:18:45 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40720), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655662725.576206, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:18:45 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40720), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:18:46 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:18:46 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:18:46 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:19:01 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:19:01 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:19:01 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:19:01 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:19:01 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40722), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655662741.152981, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:19:01 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40722), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:19:01 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:19:01 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:19:01 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:19:30 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40722), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:19:58 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655662792.3108523, 'account_name': 'Guest', 'mess_text': 'asd'}
+2022-06-19 22:20:54 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40722), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655662792.3108523, 'account_name': 'Guest', 'mess_text': 'asd'})
+2022-06-19 22:22:20 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40720), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:29:40 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:29:40 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:29:40 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:29:40 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:29:40 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40728), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663380.7410417, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:29:40 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40728), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:29:41 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:29:41 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:29:41 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:29:41 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40728), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:29:47 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:29:47 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:29:47 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:29:47 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:29:47 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40732), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663387.288845, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:29:47 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40732), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:29:47 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:29:47 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:29:47 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:29:47 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40732), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:29:50 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663390.4410229, 'account_name': 'Guest', 'mess_text': 'cz'}
+2022-06-19 22:29:50 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40732), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663390.4410229, 'account_name': 'Guest', 'mess_text': 'cz'})
+2022-06-19 22:29:50 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40732), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:30:25 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:30:25 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:30:25 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:30:25 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:30:25 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40734), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663425.1514537, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:30:25 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40734), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:30:25 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:30:25 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:30:25 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:30:27 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:30:27 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:30:27 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:30:27 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:30:27 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40736), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663427.9148934, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:30:27 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40736), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:30:28 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:30:28 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:30:28 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:30:28 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40736), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:30:31 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663431.3763115, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:30:31 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40736), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663431.3763115, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 22:30:31 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40736), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:30:52 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40734), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:31:17 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:31:17 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:31:17 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:31:17 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:31:17 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40738), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663477.6260695, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:31:17 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40738), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:31:18 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:31:18 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:31:18 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:32:42 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:32:42 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:32:42 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:32:42 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:32:42 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40740), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663562.9530215, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:32:43 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:32:43 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:32:43 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:32:48 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:32:48 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:32:48 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:32:48 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:32:48 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40742), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663568.0905595, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:32:48 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:32:48 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:32:48 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:32:48 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40742), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:32:50 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663570.2305405, 'account_name': 'Guest', 'mess_text': 'dfh'}
+2022-06-19 22:32:50 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40742), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663570.2305405, 'account_name': 'Guest', 'mess_text': 'dfh'})
+2022-06-19 22:32:50 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40742), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:33:49 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:33:49 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:33:49 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:33:49 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:33:49 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40744), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663629.1574762, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:33:49 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40744), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:33:49 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:33:49 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:33:49 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:33:49 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40744), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:33:54 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:33:54 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:33:54 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:33:54 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:33:54 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40746), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663634.187462, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:33:54 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40746), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:33:54 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:33:54 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:33:54 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:33:54 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40746), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:33:56 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663636.1181962, 'account_name': 'Guest', 'mess_text': 'asf'}
+2022-06-19 22:33:56 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40746), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663636.1181962, 'account_name': 'Guest', 'mess_text': 'asf'})
+2022-06-19 22:33:56 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40746), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:35:55 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:35:55 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:35:55 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:35:55 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:35:55 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40750), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663755.308262, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:35:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40750), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:35:55 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:35:55 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:35:55 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:35:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40750), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:35:58 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:35:58 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:35:58 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:35:58 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:35:58 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40752), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663758.9109015, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:35:58 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40752), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:35:59 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:35:59 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:35:59 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:35:59 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40752), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:36:00 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663760.9652553, 'account_name': 'Guest', 'mess_text': 'gb '}
+2022-06-19 22:36:00 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40752), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663760.9652553, 'account_name': 'Guest', 'mess_text': 'gb '})
+2022-06-19 22:36:00 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40752), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:36:01 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663761.4173257, 'mess_text': 'gb '},)
+2022-06-19 22:36:01 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40750), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:36:53 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:36:53 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:36:53 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:36:53 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:36:53 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663813.9128983, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:36:53 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:36:54 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:36:54 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:36:54 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:36:54 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:36:54 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:36:54 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:36:54 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:36:54 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:36:54 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40756), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663814.7812114, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:36:54 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40756), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:36:55 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:36:55 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:36:55 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:36:55 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:36:55 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:36:55 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:36:55 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:36:55 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40758), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663815.0943677, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:36:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40756), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:36:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40758), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:36:55 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:36:55 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:36:55 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:36:55 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40758), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:14 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663834.524555, 'account_name': 'Guest', 'mess_text': '1'}
+2022-06-19 22:37:14 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663834.524555, 'account_name': 'Guest', 'mess_text': '1'})
+2022-06-19 22:37:14 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:14 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663834.6405272, 'mess_text': '1'},)
+2022-06-19 22:37:14 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663834.6405272, 'mess_text': '1'},)
+2022-06-19 22:37:14 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40756), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:14 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40758), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:15 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663835.5486526, 'account_name': 'Guest', 'mess_text': '2'}
+2022-06-19 22:37:15 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663835.5486526, 'account_name': 'Guest', 'mess_text': '2'})
+2022-06-19 22:37:15 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:15 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663835.644149, 'mess_text': '2'},)
+2022-06-19 22:37:15 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40756), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:15 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663835.644149, 'mess_text': '2'},)
+2022-06-19 22:37:15 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40758), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:16 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663836.2606723, 'account_name': 'Guest', 'mess_text': '3'}
+2022-06-19 22:37:16 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663836.2606723, 'account_name': 'Guest', 'mess_text': '3'})
+2022-06-19 22:37:16 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:16 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663836.6483254, 'mess_text': '3'},)
+2022-06-19 22:37:16 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40756), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:16 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663836.6483254, 'mess_text': '3'},)
+2022-06-19 22:37:16 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40758), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:19 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663839.4766853, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:37:19 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663839.4766853, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 22:37:19 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:19 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663839.657723, 'mess_text': 'qwe'},)
+2022-06-19 22:37:19 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40756), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:19 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663839.657723, 'mess_text': 'qwe'},)
+2022-06-19 22:37:19 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40758), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:21 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663841.8366528, 'account_name': 'Guest', 'mess_text': 'ew'}
+2022-06-19 22:37:21 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663841.8366528, 'account_name': 'Guest', 'mess_text': 'ew'})
+2022-06-19 22:37:21 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40754), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:22 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663842.166056, 'mess_text': 'ew'},)
+2022-06-19 22:37:22 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663842.166056, 'mess_text': 'ew'},)
+2022-06-19 22:37:22 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40756), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:22 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40758), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:37:50 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 22:38:47 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:38:47 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:38:47 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:38:47 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:38:47 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40760), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663927.5186887, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:38:47 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40760), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:38:48 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:38:48 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40760), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:38:48 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:38:48 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40762), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663928.096076, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40762), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:38:48 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: listen
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:38:48 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:38:48 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40762), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:38:48 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40764), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663928.596837, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:38:48 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40764), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:38:49 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:38:49 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:38:49 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:38:49 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40764), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:38:55 :: INFO     :: client :: Завершение по команде пользователя
+2022-06-19 22:39:02 :: INFO     :: client :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:39:02 :: INFO     :: client :: Клиент запущен с параметрами: 127.0.0.1:7777; в режиме: send
+2022-06-19 22:39:02 :: INFO     :: client :: Из "main()" вызвана функция "create_presence()" с параметрами:
+	
+2022-06-19 22:39:02 :: DEBUG    :: client :: Сформировано presence сообщение для пользователя Guest
+2022-06-19 22:39:02 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40766), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1655663942.5076241, 'user': {'account_name': 'Guest'}})
+2022-06-19 22:39:02 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40766), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:03 :: INFO     :: client :: Из "main()" вызвана функция "process_server_message()" с параметрами:
+	({'response': 200},)
+2022-06-19 22:39:03 :: DEBUG    :: client :: Разбор приветственного сообщения от сервера: {'response': 200}
+2022-06-19 22:39:03 :: INFO     :: client :: Установлено соединение с сервером. Ответ сервера: 200: OK
+2022-06-19 22:39:03 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40766), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:05 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663945.0037127, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:39:05 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40766), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663945.0037127, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 22:39:05 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40766), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:05 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663945.0160966, 'mess_text': 'qwe'},)
+2022-06-19 22:39:05 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40762), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:05 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663945.0160966, 'mess_text': 'qwe'},)
+2022-06-19 22:39:05 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40764), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:06 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663946.299391, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:39:06 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40766), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663946.299391, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 22:39:06 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40766), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:06 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663946.5203447, 'mess_text': 'qwe'},)
+2022-06-19 22:39:06 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40762), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:06 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663946.5203447, 'mess_text': 'qwe'},)
+2022-06-19 22:39:06 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40764), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:07 :: DEBUG    :: client :: Сформирован словарь сообщения: {'action': 'message', 'time': 1655663947.363841, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:39:07 :: INFO     :: client :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40766), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1655663947.363841, 'account_name': 'Guest', 'mess_text': 'qwe'})
+2022-06-19 22:39:07 :: INFO     :: client :: Из "main()" вызвана функция "create_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40766), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:07 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663947.5244474, 'mess_text': 'qwe'},)
+2022-06-19 22:39:07 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40762), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:07 :: INFO     :: client :: Из "main()" вызвана функция "message_from_server()" с параметрами:
+	({'action': 'message', 'sender': 'Guest', 'time': 1655663947.5244474, 'mess_text': 'qwe'},)
+2022-06-19 22:39:07 :: INFO     :: client :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40764), raddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:39:10 :: INFO     :: client :: Завершение по команде пользователя

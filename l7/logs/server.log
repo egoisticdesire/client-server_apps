@@ -1,0 +1,735 @@
+2022-06-19 00:45:46 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:45:51 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52082)
+2022-06-19 00:45:51 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52082)>,)
+2022-06-19 00:45:51 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585151.0091498, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52082)>)
+2022-06-19 00:45:51 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52082)>, {'response': 200})
+2022-06-19 00:45:55 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52084)
+2022-06-19 00:45:55 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52086)
+2022-06-19 00:45:55 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52084)>,)
+2022-06-19 00:45:55 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585155.1228464, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52084)>)
+2022-06-19 00:45:55 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52084)>, {'response': 200})
+2022-06-19 00:45:56 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52086)>,)
+2022-06-19 00:45:56 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585155.5049276, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52086)>)
+2022-06-19 00:45:56 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52086)>, {'response': 200})
+2022-06-19 00:46:18 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52082)>,)
+2022-06-19 00:46:18 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655585177.8685174, 'account_name': 'Guest', 'some_message_text': 'qwe'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52082)>)
+2022-06-19 00:46:18 :: INFO     :: server :: Пользователь ('127.0.0.1', 52082) отключился от сервера.
+2022-06-19 00:50:52 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:50:53 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52088)
+2022-06-19 00:50:53 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52088)>,)
+2022-06-19 00:50:53 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585453.2022793, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52088)>)
+2022-06-19 00:50:53 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52088)>, {'response': 200})
+2022-06-19 00:50:53 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52090)
+2022-06-19 00:50:54 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52092)
+2022-06-19 00:50:54 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52090)>,)
+2022-06-19 00:50:54 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585453.7382803, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52090)>)
+2022-06-19 00:50:54 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52090)>, {'response': 200})
+2022-06-19 00:50:54 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52092)>,)
+2022-06-19 00:50:54 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585454.0890515, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52092)>)
+2022-06-19 00:50:54 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52092)>, {'response': 200})
+2022-06-19 00:51:00 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52088)>,)
+2022-06-19 00:51:00 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655585460.3306088, 'account_name': 'Guest', 'some_message_text': 'qw'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52088)>)
+2022-06-19 00:51:00 :: INFO     :: server :: Пользователь ('127.0.0.1', 52088) отключился от сервера.
+2022-06-19 00:57:14 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:57:15 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52120)
+2022-06-19 00:57:15 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52122)
+2022-06-19 00:57:15 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52120)>,)
+2022-06-19 00:57:15 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585835.3706222, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52120)>)
+2022-06-19 00:57:15 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52120)>, {'response': 200})
+2022-06-19 00:57:15 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52124)
+2022-06-19 00:57:15 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52122)>,)
+2022-06-19 00:57:15 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585835.8072932, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52122)>)
+2022-06-19 00:57:15 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52122)>, {'response': 200})
+2022-06-19 00:57:16 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52124)>,)
+2022-06-19 00:57:16 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585835.9969974, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52124)>)
+2022-06-19 00:57:16 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52124)>, {'response': 200})
+2022-06-19 00:57:29 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52120)>,)
+2022-06-19 00:57:29 :: INFO     :: server :: Пользователь ('127.0.0.1', 52120) отключился от сервера.
+2022-06-19 00:58:07 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 00:58:07 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52126)
+2022-06-19 00:58:07 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52126)>,)
+2022-06-19 00:58:07 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585887.4385457, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52126)>)
+2022-06-19 00:58:07 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52126)>, {'response': 200})
+2022-06-19 00:58:08 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52128)
+2022-06-19 00:58:08 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52130)
+2022-06-19 00:58:08 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52128)>,)
+2022-06-19 00:58:08 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585888.1162903, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52128)>)
+2022-06-19 00:58:08 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52128)>, {'response': 200})
+2022-06-19 00:58:08 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52130)>,)
+2022-06-19 00:58:08 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655585888.2307975, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52130)>)
+2022-06-19 00:58:08 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52130)>, {'response': 200})
+2022-06-19 00:58:42 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52126)>,)
+2022-06-19 00:58:42 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655585922.5109057, 'account_name': 'Guest', 'some_message_text': 'q'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52126)>)
+2022-06-19 00:58:42 :: INFO     :: server :: Пользователь ('127.0.0.1', 52126) отключился от сервера.
+2022-06-19 01:08:57 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:08:57 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52132)
+2022-06-19 01:08:57 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52132)>,)
+2022-06-19 01:08:57 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655586537.450829, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52132)>)
+2022-06-19 01:08:57 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52132)>, {'response': 200})
+2022-06-19 01:08:58 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52134)
+2022-06-19 01:08:58 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52136)
+2022-06-19 01:08:58 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52134)>,)
+2022-06-19 01:08:58 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655586538.1237574, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52134)>)
+2022-06-19 01:08:58 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52134)>, {'response': 200})
+2022-06-19 01:08:58 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52136)>,)
+2022-06-19 01:08:58 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655586538.4581947, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52136)>)
+2022-06-19 01:08:58 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52136)>, {'response': 200})
+2022-06-19 01:09:05 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52132)>,)
+2022-06-19 01:09:05 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655586545.8824835, 'account_name': 'Guest', 'mess_text': 'q'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52132)>)
+2022-06-19 01:09:05 :: INFO     :: server :: Пользователь ('127.0.0.1', 52132) отключился от сервера.
+2022-06-19 01:09:15 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52136)>,)
+2022-06-19 01:09:15 :: INFO     :: server :: Пользователь ('127.0.0.1', 52136) отключился от сервера.
+2022-06-19 01:15:39 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:15:44 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52138)
+2022-06-19 01:15:44 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52138)>,)
+2022-06-19 01:15:44 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655586944.3875303, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52138)>)
+2022-06-19 01:15:44 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52138)>, {'response': 200})
+2022-06-19 01:16:24 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:16:24 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52140)
+2022-06-19 01:16:25 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52142)
+2022-06-19 01:16:25 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52140)>,)
+2022-06-19 01:16:25 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655586984.5476747, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52140)>)
+2022-06-19 01:16:25 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52140)>, {'response': 200})
+2022-06-19 01:16:25 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52144)
+2022-06-19 01:16:25 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52142)>,)
+2022-06-19 01:16:25 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655586985.026428, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52142)>)
+2022-06-19 01:16:25 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52142)>, {'response': 200})
+2022-06-19 01:16:25 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52144)>,)
+2022-06-19 01:16:25 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655586985.3531878, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52144)>)
+2022-06-19 01:16:25 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52144)>, {'response': 200})
+2022-06-19 01:16:34 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52140)>,)
+2022-06-19 01:16:34 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655586994.1266499, 'account_name': 'Guest', 'mess_text': 'a'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52140)>)
+2022-06-19 01:16:34 :: INFO     :: server :: Пользователь ('127.0.0.1', 52140) отключился от сервера.
+2022-06-19 01:17:08 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52142)>,)
+2022-06-19 01:17:08 :: INFO     :: server :: Пользователь ('127.0.0.1', 52142) отключился от сервера.
+2022-06-19 01:20:56 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:20:57 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52146)
+2022-06-19 01:20:57 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52148)
+2022-06-19 01:20:57 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52146)>,)
+2022-06-19 01:20:57 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655587257.4492803, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52146)>)
+2022-06-19 01:20:57 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52146)>, {'response': 200})
+2022-06-19 01:20:58 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52150)
+2022-06-19 01:20:58 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52148)>,)
+2022-06-19 01:20:58 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655587257.914643, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52148)>)
+2022-06-19 01:20:58 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52148)>, {'response': 200})
+2022-06-19 01:20:58 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52150)>,)
+2022-06-19 01:20:58 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655587258.2381814, 'user': {'account_name': 'Zohan'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52150)>)
+2022-06-19 01:20:58 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52150)>, {'response': 200})
+2022-06-19 01:21:05 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52146)>,)
+2022-06-19 01:21:05 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655587264.9641688, 'account_name': 'Guest', 'mess_text': 'qwe'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52146)>)
+2022-06-19 01:21:05 :: INFO     :: server :: Пользователь ('127.0.0.1', 52146) отключился от сервера.
+2022-06-19 01:22:47 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:22:47 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52152)
+2022-06-19 01:22:48 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52152)>,)
+2022-06-19 01:22:48 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655587367.7727327, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52152)>)
+2022-06-19 01:22:48 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52152)>, {'response': 200})
+2022-06-19 01:22:48 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52154)
+2022-06-19 01:22:48 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52156)
+2022-06-19 01:22:48 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52154)>,)
+2022-06-19 01:22:48 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655587368.4564188, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52154)>)
+2022-06-19 01:22:48 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52154)>, {'response': 200})
+2022-06-19 01:22:49 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52156)>,)
+2022-06-19 01:22:49 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655587368.90963, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52156)>)
+2022-06-19 01:22:49 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52156)>, {'response': 200})
+2022-06-19 01:22:57 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52152)>,)
+2022-06-19 01:22:57 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655587377.6835635, 'account_name': 'Guest', 'mess_text': 'qwe'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52152)>)
+2022-06-19 01:22:57 :: INFO     :: server :: Пользователь ('127.0.0.1', 52152) отключился от сервера.
+2022-06-19 01:26:48 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 01:26:48 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52158)
+2022-06-19 01:26:49 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52158)>,)
+2022-06-19 01:26:49 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655587608.623544, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52158)>)
+2022-06-19 01:26:49 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52158)>, {'response': 200})
+2022-06-19 01:26:49 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52160)
+2022-06-19 01:26:49 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 52162)
+2022-06-19 01:26:49 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52160)>,)
+2022-06-19 01:26:49 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655587609.3141387, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52160)>)
+2022-06-19 01:26:49 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52160)>, {'response': 200})
+2022-06-19 01:26:50 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52162)>,)
+2022-06-19 01:26:50 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655587609.7036505, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52162)>)
+2022-06-19 01:26:50 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52162)>, {'response': 200})
+2022-06-19 01:27:00 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52158)>,)
+2022-06-19 01:27:00 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655587620.1855266, 'account_name': 'Guest', 'mess_text': 'a'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52158)>)
+2022-06-19 01:27:00 :: INFO     :: server :: Пользователь ('127.0.0.1', 52158) отключился от сервера.
+2022-06-19 21:30:54 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:30:55 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40686)
+2022-06-19 21:30:55 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40688)
+2022-06-19 21:30:55 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40686)>,)
+2022-06-19 21:30:55 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655659855.0471277, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40686)>)
+2022-06-19 21:30:55 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40686)>, {'response': 200})
+2022-06-19 21:30:55 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40688)>,)
+2022-06-19 21:30:55 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655659855.4822354, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40688)>)
+2022-06-19 21:30:55 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40688)>, {'response': 200})
+2022-06-19 21:31:14 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40690)
+2022-06-19 21:31:14 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40690)>,)
+2022-06-19 21:31:14 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655659874.459914, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40690)>)
+2022-06-19 21:31:14 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40690)>, {'response': 200})
+2022-06-19 21:31:47 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40690)>,)
+2022-06-19 21:31:47 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655659906.8362238, 'account_name': 'Guest', 'mess_text': 'qwe'}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40690)>)
+2022-06-19 21:31:47 :: INFO     :: server :: Пользователь ('127.0.0.1', 40690) отключился от сервера.
+2022-06-19 21:41:09 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:41:10 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40698)
+2022-06-19 21:41:10 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40698)>,)
+2022-06-19 21:41:10 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655660470.271569, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40698)>)
+2022-06-19 21:41:10 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655660470.271569, 'user': {'account_name': 'Guest'}}
+2022-06-19 21:41:10 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40698)>, {'response': 200})
+2022-06-19 21:41:11 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40700)
+2022-06-19 21:41:11 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40700)>,)
+2022-06-19 21:41:11 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655660471.0449097, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40700)>)
+2022-06-19 21:41:11 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655660471.0449097, 'user': {'account_name': 'Guest'}}
+2022-06-19 21:41:11 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40700)>, {'response': 200})
+2022-06-19 21:41:11 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40702)
+2022-06-19 21:41:12 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40702)>,)
+2022-06-19 21:41:12 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655660471.8510928, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40702)>)
+2022-06-19 21:41:12 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655660471.8510928, 'user': {'account_name': 'Guest'}}
+2022-06-19 21:41:12 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40702)>, {'response': 200})
+2022-06-19 21:41:17 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40698)>,)
+2022-06-19 21:41:17 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655660477.183538, 'account_name': 'Guest', 'mess_text': 'qwe'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40698)>)
+2022-06-19 21:41:17 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655660477.183538, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 21:41:17 :: INFO     :: server :: Пользователь ('127.0.0.1', 40698) отключился от сервера.
+2022-06-19 21:47:40 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 21:47:41 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40704)
+2022-06-19 21:47:41 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40704)>,)
+2022-06-19 21:47:41 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655660861.1696815, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40704)>)
+2022-06-19 21:47:41 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655660861.1696815, 'user': {'account_name': 'Guest'}}
+2022-06-19 21:47:41 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40704)>, {'response': 200})
+2022-06-19 21:47:41 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40706)
+2022-06-19 21:47:42 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40706)>,)
+2022-06-19 21:47:42 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655660861.775695, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40706)>)
+2022-06-19 21:47:42 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655660861.775695, 'user': {'account_name': 'Guest'}}
+2022-06-19 21:47:42 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40706)>, {'response': 200})
+2022-06-19 21:47:42 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40708)
+2022-06-19 21:47:42 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40708)>,)
+2022-06-19 21:47:42 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655660862.359269, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40708)>)
+2022-06-19 21:47:42 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655660862.359269, 'user': {'account_name': 'Guest'}}
+2022-06-19 21:47:42 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40708)>, {'response': 200})
+2022-06-19 21:47:51 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40704)>,)
+2022-06-19 21:47:51 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655660871.1734037, 'account_name': 'Guest', 'mess_text': 'asd'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40704)>)
+2022-06-19 21:47:51 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655660871.1734037, 'account_name': 'Guest', 'mess_text': 'asd'}
+2022-06-19 21:47:51 :: INFO     :: server :: Пользователь ('127.0.0.1', 40704) отключился от сервера.
+2022-06-19 22:08:54 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:08:59 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40710)
+2022-06-19 22:09:00 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40710)>,)
+2022-06-19 22:09:00 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655662139.573371, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40710)>)
+2022-06-19 22:09:00 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655662139.573371, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:09:00 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40710)>, {'response': 200})
+2022-06-19 22:09:14 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40712)
+2022-06-19 22:09:14 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40712)>,)
+2022-06-19 22:09:14 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655662154.094312, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40712)>)
+2022-06-19 22:09:14 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655662154.094312, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:09:14 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40712)>, {'response': 200})
+2022-06-19 22:09:18 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40712)>,)
+2022-06-19 22:09:18 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655662158.0340245, 'account_name': 'Guest', 'mess_text': 'qwe'}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40712)>)
+2022-06-19 22:09:18 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655662158.0340245, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:09:18 :: INFO     :: server :: Пользователь ('127.0.0.1', 40712) отключился от сервера.
+2022-06-19 22:09:42 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40714)
+2022-06-19 22:09:42 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40714)>,)
+2022-06-19 22:09:42 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655662182.2468357, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40714)>)
+2022-06-19 22:09:42 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655662182.2468357, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:09:42 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40714)>, {'response': 200})
+2022-06-19 22:11:36 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40710)>,)
+2022-06-19 22:11:36 :: INFO     :: server :: Пользователь ('127.0.0.1', 40710) отключился от сервера.
+2022-06-19 22:11:43 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40716)
+2022-06-19 22:11:43 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40716)>,)
+2022-06-19 22:11:43 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655662303.4521177, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40716)>)
+2022-06-19 22:11:43 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655662303.4521177, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:11:43 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40716)>, {'response': 200})
+2022-06-19 22:13:31 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40714)>,)
+2022-06-19 22:13:31 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655662344.8452084, 'account_name': 'Guest', 'mess_text': 'asd'}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40714)>)
+2022-06-19 22:13:31 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655662344.8452084, 'account_name': 'Guest', 'mess_text': 'asd'}
+2022-06-19 22:13:31 :: INFO     :: server :: Пользователь ('127.0.0.1', 40714) отключился от сервера.
+2022-06-19 22:13:57 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40716)>,)
+2022-06-19 22:13:57 :: INFO     :: server :: Пользователь ('127.0.0.1', 40716) отключился от сервера.
+2022-06-19 22:13:58 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40718)
+2022-06-19 22:13:58 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40718)>,)
+2022-06-19 22:13:58 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655662438.0602582, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40718)>)
+2022-06-19 22:13:58 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655662438.0602582, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:13:58 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40718)>, {'response': 200})
+2022-06-19 22:15:08 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40718)>,)
+2022-06-19 22:15:08 :: INFO     :: server :: Пользователь ('127.0.0.1', 40718) отключился от сервера.
+2022-06-19 22:18:45 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40720)
+2022-06-19 22:18:46 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40720)>,)
+2022-06-19 22:18:46 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655662725.576206, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40720)>)
+2022-06-19 22:18:46 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655662725.576206, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:18:46 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40720)>, {'response': 200})
+2022-06-19 22:19:01 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40722)
+2022-06-19 22:19:01 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40722)>,)
+2022-06-19 22:19:01 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655662741.152981, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40722)>)
+2022-06-19 22:19:01 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655662741.152981, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:19:01 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40722)>, {'response': 200})
+2022-06-19 22:21:32 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40722)>,)
+2022-06-19 22:21:32 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655662792.3108523, 'account_name': 'Guest', 'mess_text': 'asd'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40722)>)
+2022-06-19 22:21:32 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655662792.3108523, 'account_name': 'Guest', 'mess_text': 'asd'}
+2022-06-19 22:21:32 :: INFO     :: server :: Пользователь ('127.0.0.1', 40722) отключился от сервера.
+2022-06-19 22:23:41 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40720)>,)
+2022-06-19 22:23:41 :: INFO     :: server :: Пользователь ('127.0.0.1', 40720) отключился от сервера.
+2022-06-19 22:29:09 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:29:18 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:29:29 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:29:40 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40728)
+2022-06-19 22:29:41 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40728)>,)
+2022-06-19 22:29:41 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663380.7410417, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40728)>)
+2022-06-19 22:29:41 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663380.7410417, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:29:41 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40728)>, {'response': 200})
+2022-06-19 22:29:47 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40732)
+2022-06-19 22:29:47 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40732)>,)
+2022-06-19 22:29:47 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663387.288845, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40732)>)
+2022-06-19 22:29:47 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663387.288845, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:29:47 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40732)>, {'response': 200})
+2022-06-19 22:29:50 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40732)>,)
+2022-06-19 22:29:50 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663390.4410229, 'account_name': 'Guest', 'mess_text': 'cz'}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40732)>)
+2022-06-19 22:29:50 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663390.4410229, 'account_name': 'Guest', 'mess_text': 'cz'}
+2022-06-19 22:29:50 :: INFO     :: server :: Пользователь ('127.0.0.1', 40732) отключился от сервера.
+2022-06-19 22:30:01 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40728)>,)
+2022-06-19 22:30:01 :: INFO     :: server :: Пользователь ('127.0.0.1', 40728) отключился от сервера.
+2022-06-19 22:30:18 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:30:25 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40734)
+2022-06-19 22:30:25 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40734)>,)
+2022-06-19 22:30:25 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663425.1514537, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40734)>)
+2022-06-19 22:30:25 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663425.1514537, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:30:25 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40734)>, {'response': 200})
+2022-06-19 22:30:27 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40736)
+2022-06-19 22:30:28 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40736)>,)
+2022-06-19 22:30:28 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663427.9148934, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40736)>)
+2022-06-19 22:30:28 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663427.9148934, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:30:28 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40736)>, {'response': 200})
+2022-06-19 22:30:31 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40736)>,)
+2022-06-19 22:30:31 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663431.3763115, 'account_name': 'Guest', 'mess_text': 'qwe'}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40736)>)
+2022-06-19 22:30:31 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663431.3763115, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:30:31 :: INFO     :: server :: Пользователь ('127.0.0.1', 40736) отключился от сервера.
+2022-06-19 22:31:17 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40734)>,)
+2022-06-19 22:31:17 :: INFO     :: server :: Пользователь ('127.0.0.1', 40734) отключился от сервера.
+2022-06-19 22:31:17 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40738)
+2022-06-19 22:31:18 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40738)>,)
+2022-06-19 22:31:18 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663477.6260695, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40738)>)
+2022-06-19 22:31:18 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663477.6260695, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:31:18 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40738)>, {'response': 200})
+2022-06-19 22:32:36 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:32:42 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40740)
+2022-06-19 22:32:43 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663562.9530215, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40740)>)
+2022-06-19 22:32:43 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663562.9530215, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:32:43 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40740)>, {'response': 200})
+2022-06-19 22:32:48 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40742)
+2022-06-19 22:32:48 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663568.0905595, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40742)>)
+2022-06-19 22:32:48 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663568.0905595, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:32:48 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40742)>, {'response': 200})
+2022-06-19 22:32:50 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663570.2305405, 'account_name': 'Guest', 'mess_text': 'dfh'}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40742)>)
+2022-06-19 22:32:50 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663570.2305405, 'account_name': 'Guest', 'mess_text': 'dfh'}
+2022-06-19 22:32:50 :: INFO     :: server :: Пользователь ('127.0.0.1', 40742) отключился от сервера.
+2022-06-19 22:33:46 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:33:49 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40744)
+2022-06-19 22:33:49 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40744)>,)
+2022-06-19 22:33:49 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663629.1574762, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40744)>)
+2022-06-19 22:33:49 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663629.1574762, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:33:49 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40744)>, {'response': 200})
+2022-06-19 22:33:54 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40746)
+2022-06-19 22:33:54 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40746)>,)
+2022-06-19 22:33:54 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663634.187462, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40746)>)
+2022-06-19 22:33:54 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663634.187462, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:33:54 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40746)>, {'response': 200})
+2022-06-19 22:33:56 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40746)>,)
+2022-06-19 22:33:56 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663636.1181962, 'account_name': 'Guest', 'mess_text': 'asf'}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40746)>)
+2022-06-19 22:33:56 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663636.1181962, 'account_name': 'Guest', 'mess_text': 'asf'}
+2022-06-19 22:33:56 :: INFO     :: server :: Пользователь ('127.0.0.1', 40746) отключился от сервера.
+2022-06-19 22:35:50 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:35:55 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40750)
+2022-06-19 22:35:55 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40750)>,)
+2022-06-19 22:35:55 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663755.308262, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40750)>)
+2022-06-19 22:35:55 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663755.308262, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:35:55 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40750)>, {'response': 200})
+2022-06-19 22:35:58 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40752)
+2022-06-19 22:35:59 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40752)>,)
+2022-06-19 22:35:59 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663758.9109015, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40752)>)
+2022-06-19 22:35:59 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663758.9109015, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:35:59 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40752)>, {'response': 200})
+2022-06-19 22:36:01 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40752)>,)
+2022-06-19 22:36:01 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663760.9652553, 'account_name': 'Guest', 'mess_text': 'gb '}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40752)>)
+2022-06-19 22:36:01 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663760.9652553, 'account_name': 'Guest', 'mess_text': 'gb '}
+2022-06-19 22:36:01 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40750)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663761.4173257, 'mess_text': 'gb '})
+2022-06-19 22:36:01 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40752)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663761.4173257, 'mess_text': 'gb '})
+2022-06-19 22:36:53 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:36:53 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40754)
+2022-06-19 22:36:54 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>,)
+2022-06-19 22:36:54 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663813.9128983, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>)
+2022-06-19 22:36:54 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663813.9128983, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:36:54 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>, {'response': 200})
+2022-06-19 22:36:54 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40756)
+2022-06-19 22:36:55 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40758)
+2022-06-19 22:36:55 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40756)>,)
+2022-06-19 22:36:55 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663814.7812114, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40756)>)
+2022-06-19 22:36:55 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663814.7812114, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:36:55 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40756)>, {'response': 200})
+2022-06-19 22:36:55 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40758)>,)
+2022-06-19 22:36:55 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663815.0943677, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40758)>)
+2022-06-19 22:36:55 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663815.0943677, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:36:55 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40758)>, {'response': 200})
+2022-06-19 22:37:14 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>,)
+2022-06-19 22:37:14 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663834.524555, 'account_name': 'Guest', 'mess_text': '1'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>)
+2022-06-19 22:37:14 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663834.524555, 'account_name': 'Guest', 'mess_text': '1'}
+2022-06-19 22:37:14 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663834.6405272, 'mess_text': '1'})
+2022-06-19 22:37:14 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40756)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663834.6405272, 'mess_text': '1'})
+2022-06-19 22:37:14 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40758)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663834.6405272, 'mess_text': '1'})
+2022-06-19 22:37:15 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>,)
+2022-06-19 22:37:15 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663835.5486526, 'account_name': 'Guest', 'mess_text': '2'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>)
+2022-06-19 22:37:15 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663835.5486526, 'account_name': 'Guest', 'mess_text': '2'}
+2022-06-19 22:37:15 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663835.644149, 'mess_text': '2'})
+2022-06-19 22:37:15 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40756)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663835.644149, 'mess_text': '2'})
+2022-06-19 22:37:15 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40758)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663835.644149, 'mess_text': '2'})
+2022-06-19 22:37:16 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>,)
+2022-06-19 22:37:16 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663836.2606723, 'account_name': 'Guest', 'mess_text': '3'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>)
+2022-06-19 22:37:16 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663836.2606723, 'account_name': 'Guest', 'mess_text': '3'}
+2022-06-19 22:37:16 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663836.6483254, 'mess_text': '3'})
+2022-06-19 22:37:16 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40756)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663836.6483254, 'mess_text': '3'})
+2022-06-19 22:37:16 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40758)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663836.6483254, 'mess_text': '3'})
+2022-06-19 22:37:19 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>,)
+2022-06-19 22:37:19 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663839.4766853, 'account_name': 'Guest', 'mess_text': 'qwe'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>)
+2022-06-19 22:37:19 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663839.4766853, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:37:19 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663839.657723, 'mess_text': 'qwe'})
+2022-06-19 22:37:19 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40756)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663839.657723, 'mess_text': 'qwe'})
+2022-06-19 22:37:19 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40758)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663839.657723, 'mess_text': 'qwe'})
+2022-06-19 22:37:22 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>,)
+2022-06-19 22:37:22 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663841.8366528, 'account_name': 'Guest', 'mess_text': 'ew'}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>)
+2022-06-19 22:37:22 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663841.8366528, 'account_name': 'Guest', 'mess_text': 'ew'}
+2022-06-19 22:37:22 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40754)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663842.166056, 'mess_text': 'ew'})
+2022-06-19 22:37:22 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40756)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663842.166056, 'mess_text': 'ew'})
+2022-06-19 22:37:22 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40758)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663842.166056, 'mess_text': 'ew'})
+2022-06-19 22:37:50 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777)>,)
+2022-06-19 22:38:47 :: INFO     :: server :: Из "main()" вызвана функция "args_parser()" с параметрами:
+	
+2022-06-19 22:38:47 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40760)
+2022-06-19 22:38:48 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40760)>,)
+2022-06-19 22:38:48 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663927.5186887, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40760)>)
+2022-06-19 22:38:48 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663927.5186887, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:38:48 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40760)>, {'response': 200})
+2022-06-19 22:38:48 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40762)
+2022-06-19 22:38:48 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40764)
+2022-06-19 22:38:48 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40762)>,)
+2022-06-19 22:38:48 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663928.096076, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40762)>)
+2022-06-19 22:38:48 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663928.096076, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:38:48 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40762)>, {'response': 200})
+2022-06-19 22:38:49 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40764)>,)
+2022-06-19 22:38:49 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663928.596837, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40764)>)
+2022-06-19 22:38:49 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663928.596837, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:38:49 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40764)>, {'response': 200})
+2022-06-19 22:38:56 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40760)>,)
+2022-06-19 22:38:56 :: INFO     :: server :: Пользователь ('127.0.0.1', 40760) отключился от сервера.
+2022-06-19 22:39:02 :: INFO     :: server :: Успешное соединение с ('127.0.0.1', 40766)
+2022-06-19 22:39:03 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>,)
+2022-06-19 22:39:03 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'presence', 'time': 1655663942.5076241, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>)
+2022-06-19 22:39:03 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'presence', 'time': 1655663942.5076241, 'user': {'account_name': 'Guest'}}
+2022-06-19 22:39:03 :: INFO     :: server :: Из "process_client_message()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>, {'response': 200})
+2022-06-19 22:39:05 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>,)
+2022-06-19 22:39:05 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663945.0037127, 'account_name': 'Guest', 'mess_text': 'qwe'}, [], <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>)
+2022-06-19 22:39:05 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663945.0037127, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:39:05 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40762)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663945.0160966, 'mess_text': 'qwe'})
+2022-06-19 22:39:05 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40764)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663945.0160966, 'mess_text': 'qwe'})
+2022-06-19 22:39:05 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663945.0160966, 'mess_text': 'qwe'})
+2022-06-19 22:39:06 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>,)
+2022-06-19 22:39:06 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663946.299391, 'account_name': 'Guest', 'mess_text': 'qwe'}, [], <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>)
+2022-06-19 22:39:06 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663946.299391, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:39:06 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40762)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663946.5203447, 'mess_text': 'qwe'})
+2022-06-19 22:39:06 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40764)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663946.5203447, 'mess_text': 'qwe'})
+2022-06-19 22:39:06 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663946.5203447, 'mess_text': 'qwe'})
+2022-06-19 22:39:07 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>,)
+2022-06-19 22:39:07 :: INFO     :: server :: Из "main()" вызвана функция "process_client_message()" с параметрами:
+	({'action': 'message', 'time': 1655663947.363841, 'account_name': 'Guest', 'mess_text': 'qwe'}, [], <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>)
+2022-06-19 22:39:07 :: DEBUG    :: server :: Разбор сообщения от клиента : {'action': 'message', 'time': 1655663947.363841, 'account_name': 'Guest', 'mess_text': 'qwe'}
+2022-06-19 22:39:07 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40762)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663947.5244474, 'mess_text': 'qwe'})
+2022-06-19 22:39:07 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40764)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663947.5244474, 'mess_text': 'qwe'})
+2022-06-19 22:39:07 :: INFO     :: server :: Из "main()" вызвана функция "send_message()" с параметрами:
+	(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40766)>, {'action': 'message', 'sender': 'Guest', 'time': 1655663947.5244474, 'mess_text': 'qwe'})
+2022-06-19 22:39:10 :: INFO     :: server :: Из "main()" вызвана функция "get_message()" с параметрами:
+	(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777)>,)
